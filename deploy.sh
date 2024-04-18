@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-
+cd
 cd pipelin-test-next
 git pull
 npm install &&
