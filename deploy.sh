@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-git pull origin master
+
 npm install &&
-yarn build &&
-pm2 restart
+npm run build &&
+pm2 npm start
