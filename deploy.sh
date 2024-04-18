@@ -1,4 +1,6 @@
 #!/bin/bash
+ls
+pwd
 cd pipelin-test-next
 git pull origin master
 npm install &&
