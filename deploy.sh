@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /pipelin-test-next
 git pull origin master
-yarn install &&
-yarn build &&
+npm install &&
+npm run build &&
 pm2 restart
